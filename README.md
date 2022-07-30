@@ -8,6 +8,8 @@
     
    优化前：
    <img width="416" alt="image" src="https://user-images.githubusercontent.com/110089380/181920435-0fb5dd8a-e1b6-4ada-b266-521b00f99a42.png">
+   
    通过方式①优化后：
    <img width="415" alt="image" src="https://user-images.githubusercontent.com/110089380/181920457-4d9c655b-3c6e-4e40-ac74-43e807fa2bba.png">
+   
    对于方式②，由于在实现sm3算法的过程中都是对字符串进行操作，我不清楚如何使用simd指令处理字符和字符串，于是并没有实现。
