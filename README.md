@@ -4,7 +4,8 @@
 
    优化：
 ① 在sm3算法中出现多个循环，我通过尝试对部分循环进行循环展开，提高并行度从而达到优化的目的。
-② 另外也可以使用simd指令对sm3算法进行优化。
+
+② 也可以使用simd指令对sm3算法进行优化。
     
    优化前：
    <img width="416" alt="image" src="https://user-images.githubusercontent.com/110089380/181920435-0fb5dd8a-e1b6-4ada-b266-521b00f99a42.png">
